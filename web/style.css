@@ -1,0 +1,336 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffff80;
+
+    color: #ffff80;
+    font-family: Calibri;
+    font-size: 10px;
+}
+
+.body {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -40px;
+    bottom: -40px;
+    width: auto;
+    height: auto;
+    background-image: url("1509786_2.jpg");
+    background-size: cover;
+    -webkit-filter: blur(5px);
+    z-index: 0;
+}
+
+.grad {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -40px;
+    bottom: -40px;
+    width: auto;
+    height: auto;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.65))); /* Chrome,Safari4+ */
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.header {
+    position: absolute;
+    top: calc(35% - 100px);
+    left: calc(50% - 175px);
+    z-index: 2;
+}
+
+.header_alert {
+    position: absolute;
+    top: calc(35% - 100px);
+    left: calc(50% - 175px);
+    z-index: 2;
+}
+
+.header_alert_fail {
+    position: absolute;
+    top: calc(35% - 100px);
+    left: calc(50% - 175px);
+    z-index: 2;
+}
+
+.header_alert_logged {
+    position: absolute;
+    top: calc(35% - 100px);
+    left: calc(50% - 175px);
+    z-index: 2;
+}
+
+.redirect_index {
+    float: left;
+    color: #fff;
+    font-family: verdana;
+    font-size: 10px;
+    font-weight: 200;
+    position: absolute;
+    top: calc(98% - 10px);
+    left: calc(45% - 80px);
+    z-index: 2;
+}
+
+.header_reg {
+    position: absolute;
+    top: calc(44% - 33px);
+    left: calc(52% - 260px);
+    z-index: 2;
+}
+
+.header_succ {
+    position: absolute;
+    top: calc(50% - 120px);
+    left: calc(50% - 200px);
+    z-index: 2;
+}
+
+.header div {
+    float: left;
+    color: #fff;
+    font-family: verdana;
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.header_alert div {
+    float: left;
+    color: #FF0000;
+    font-family: verdana;
+    font-size: 10px;
+    font-weight: 200;
+    text-align: left;
+}
+
+.header_alert_fail div {
+    float: left;
+    color: #FF0000;
+    font-family: verdana;
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.header_alert_logged div {
+    float: left;
+    color: #red;
+    font-family: verdana;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.header_reg div {
+    float: left;
+    color: #red;
+    font-family: verdana;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.header_succ div {
+    float: center;
+    color: #red;
+    font-family: verdana;
+    font-size: 52px;
+    font-weight: 200;
+}
+
+.header div span {
+    color: #996633;
+}
+
+.header_reg div span {
+    color: #996633;
+}
+
+.header_succ div span {
+    color: #996633;
+}
+
+.header_alert_logged div span {
+    color: #996633;
+}
+
+.form {
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 650px);
+    height: 150px;
+    width: 350px;
+    padding: 10px;
+    z-index: 2;
+}
+
+.form_succ {
+    position: absolute;
+    top: calc(50% - 400px);
+    left: calc(50% - 500px);
+    height: 150px;
+    width: 350px;
+    padding: 10px;
+    z-index: 2;
+}
+
+.form input[type=text] {
+    width: 250px;
+    height: 15px;
+    background: white;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+    color: #black;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+}
+
+.form input[type=password] {
+    width: 250px;
+    height: 15px;
+    background: white;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+    color: #black;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.form input[type=submit] {
+    width: 127px;
+    height: 35px;
+    background: #white;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #black;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+.form_succ input[type=submit] {
+    width: 260px;
+    height: 35px;
+    background: #red;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #white;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+.form input[type=button] {
+    width: 127px;
+    height: 35px;
+    background: #white;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #black;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+.form_succ input[type=button] {
+    width: 260px;
+    height: 35px;
+    background: #white;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #black;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+.form input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+.form_succ input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+.form input[type=submit]:active {
+    opacity: 0.6;
+}
+
+.form_succ input[type=submit]:active {
+    opacity: 0.8;
+}
+
+.form input[type=button]:hover {
+    opacity: 0.8;
+}
+
+.form_succ input[type=button]:hover {
+    opacity: 0.8;
+}
+
+.form input[type=button]:active {
+    opacity: 0.6;
+}
+
+.form_succ input[type=button]:active {
+    opacity: 0.8;
+}
+
+.form input[type=text]:focus {
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.form input[type=password]:focus {
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.form input[type=submit]:focus {
+    outline: none;
+}
+
+.form_succ input[type=submit]:focus {
+    outline: none;
+}
+
+.form input[type=button]:focus {
+    outline: none;
+}
+
+.form_succ input[type=button]:focus {
+    outline: none;
+}
+
+.errors {
+    background-color: #FFF;
+    border: 1px solid #CC0000;
+    width: 250px;
+    margin-bottom: 8px;
+    padding: 4x;
+
+}
+
+.errors li {
+    list-style: none;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+::-moz-input-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
